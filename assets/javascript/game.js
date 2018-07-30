@@ -40,3 +40,19 @@ var crystalValue = ($(this).attr("data-crystalvalue"));
         reset()
     }
 })
+
+function reset () {
+    Total = 0;
+    randomNumberGenerator = Math.floor((Math.random() * 120) + 19);
+    $('#finalTotal').html("Your Total Score Is: " + Total);
+    $('#randomNumber').html("Number to Reach: " + randomNumberGenerator);
+    crystalArry = [];
+    for (var i = 0; i < 4; i++) {
+        crystalArry.push(Math.floor(Math.random() * 12) + 1);
+    }
+    console.log(crystalArry)
+    $("#one").attr("data-crystalvalue", crystalArry[0]);
+    $("#two").attr("data-crystalvalue", crystalArry[1]);
+    $("#three").attr("data-crystalvalue", crystalArry[2]);
+    $("#four").attr("data-crystalvalue", crystalArry[3]);
+    }
