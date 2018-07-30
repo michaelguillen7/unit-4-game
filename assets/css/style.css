@@ -1,0 +1,49 @@
+body {
+	background: url(../images/treasureBackground.jpg);
+	color: white !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#one{
+	height: 80px;
+	width: 80px;
+}
+
+#two{
+	height: 80px;
+	width: 80px;
+}
+
+#three{
+	height: 80px;
+	width: 80px;
+}
+
+#four{
+	height: 80px;
+	width: 80px;
+}
+
+h1{
+	border: 2px solid green;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+#finalTotal {
+
+	text-align: center;
+}
+
+#WinsNumber{
+	margin-top: 50px;
+	text-align: center;
+}
+
+#LosesNumber{
+	text-align: center;
+}
